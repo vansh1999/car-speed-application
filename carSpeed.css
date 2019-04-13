@@ -1,0 +1,43 @@
+
+#container{
+    width: 700px;
+}
+
+body{
+    background-color : grey;
+}
+
+#road{
+    padding: 10px;
+    background-color: black;
+
+}
+#seperator{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 680px;
+    height: 10px;
+    background-color: white;
+}
+
+#car1{
+    position: relative;
+    
+    height: 50px;
+    width: 60px;
+    background-color: blue;
+}
+
+#car2{
+    position: relative;
+    
+    height: 50px;
+    width: 60px;
+    background-color: red;
+}
+
+input{
+    width : 50px;
+}
+
