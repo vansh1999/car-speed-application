@@ -5,7 +5,8 @@ function initMovement(car,speed) {
   var carObj = document.getElementById(car)
   var left = 0
 
-  interval.car = setInterval(function(){
+  interval[car] = setInterval(function(){ 
+      // interval.car -- interval[car]
 
        left += speed/100
        carObj.style.left = left + "px"
